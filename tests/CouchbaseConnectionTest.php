@@ -1,0 +1,1 @@
+<?phpnamespace Sonover\Couchbase\Tests;use Illuminate\Support\Facades\DB;use Sonover\Couchbase\CouchbaseConnection;class CouchbaseConnectionTest extends Testcase{    /** @test * */    function establish_a_connection()    {        $connection = DB::connection('couchbase');        $this->assertInstanceOf(CouchbaseConnection::class, $connection);            }}

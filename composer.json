@@ -29,5 +29,7 @@
     "psr-4": {
       "Sonover\\Couchbase\\Tests\\": "tests/"
     }
-  }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
 }
